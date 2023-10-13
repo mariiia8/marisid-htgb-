@@ -10,6 +10,6 @@ function fahrenheitToCelsius(fahrenheit) {
 }
 
 
-const fahrenheitTemperature = 77; // Температура в градусах Фаренгейта
+const fahrenheitTemperature = 77;
 const convertedToCelsius = fahrenheitToCelsius(fahrenheitTemperature);
 console.log(fahrenheitTemperature + "F " + convertedToCelsius.toFixed(1) + "C");
